@@ -1,8 +1,8 @@
 {
-  "title": "train12",
-  "description": "train12",
+  "title": "Unix Shell Commands and Applications",
+  "description": "Learn practical use of unix commands in daily development and support activities",
   "difficulty": "Intermediate",
-  "time": "30",
+  "time": "45",
   "details": {
     "steps": [
       {
