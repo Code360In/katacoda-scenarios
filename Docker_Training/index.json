@@ -31,6 +31,6 @@
     "uilayout": "vscode-terminal-split"
   },
   "backend": {
-    "imageid": "docker-node"
+    "imageid": "ubuntu:1804"
   }
 }
