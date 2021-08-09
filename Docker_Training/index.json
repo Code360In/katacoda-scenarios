@@ -1,0 +1,36 @@
+{
+  "title": "Introduction to Python3",
+  "description": "This is a beginners tutorial on how to program using Python 3.x.",
+  "difficulty": "Beginner",
+  "time": "10 hours",
+  "icon": "./intro-python3/assets/color_logo_no_background.png",
+  "details": {
+    "steps": [
+      {
+        "icon": "./intro-python3/assets/color_logo_no_background.png",
+        "title": "Introduction to Python 3.x",
+        "text": "step1.md"
+      },
+      {
+        "title": "Working with Python Modules",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "vscode-terminal-split"
+  },
+  "backend": {
+    "imageid": "python:3.8"
+  }
+}
