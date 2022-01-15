@@ -2,6 +2,8 @@
 
 Lets update Ubuntu first:
 
+`pip install jupyter notebook`{{execute}}
+
 `sudo apt-get update`{{execute}}
 
 `sudo apt install default-jdk scala git`{{execute}}
@@ -21,6 +23,12 @@ Lets update Ubuntu first:
 `export PYSPARK_PYTHON=/usr/bin/python3`{{execute}}
 
 `start-master.sh`{{execute}}
+
+`export PYSPARK_DRIVER_PYTHON="jupyter"`{{execute}}
+
+`export PYSPARK_DRIVER_PYTHON_OPTS="notebook --allow-root"`{{execute}}
+
+`pyspark`{{execute}}
 
 `sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 1`{{execute}}
 
