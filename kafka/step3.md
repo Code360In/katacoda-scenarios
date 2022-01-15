@@ -3,6 +3,10 @@ Now we'll the Python demo.
 
 `pyspark`{{execute}}
 
+pip install --upgrade pip
+
+pip install pyspark
+
 In order to quit pyspark: `quit()`, and for help: `help()`
 
 We'll run the similar commands in step 2, but in python:
