@@ -22,7 +22,7 @@ Lets update Ubuntu first:
 
 `start-master.sh`{{execute}}
 
-`sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 1` {{execute}}
+`sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 1`{{execute}}
 
 `pyspark`{{execute}}
 
