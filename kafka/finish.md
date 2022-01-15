@@ -1,1 +1,1 @@
-You 7sucessfully completed the course
+You sucessfully completed the course
