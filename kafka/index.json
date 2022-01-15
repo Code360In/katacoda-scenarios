@@ -27,7 +27,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
+    "uilayout": "vscode",
     "dashboards": [
       {
         "name": "URL",
