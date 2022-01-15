@@ -20,7 +20,48 @@ and update it:
 Download Spark (we're using release 2.4, package 2.7):
 `curl -O http://apache.mirrors.nublue.co.uk/spark/spark-2.4.5/spark-2.4.5-bin-hadoop2.7.tgz`{{execute}}
 
+`sudo apt install default-jdk scala git`{{execute}}
 
+`wget https://downloads.apache.org/spark/spark-3.1.2/spark-3.1.2-bin-hadoop3.2.tgz`{{execute}}
+
+sudo mkdir /opt/spark
+
+sudo tar -xf spark*.tgz -C /opt/spark --strip-component 1
+
+sudo chmod -R 777 /opt/spark
+
+export SPARK_HOME=/opt/spark
+
+export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
+
+export PYSPARK_PYTHON=/usr/bin/python3
+
+start-master.sh
+
+
+start-master.sh --port 7072 --webui-port 8082
+
+sudo ufw allow 8080
+
+start-worker.sh spark://ubuntu:7077
+
+stop-worker.sh
+
+start-worker.sh -m 212M spark://ubuntu:7077
+
+spark-shell
+
+pyspark
+
+stop-master.sh
+
+stop-worker.sh
+
+stop-all.sh
+
+start-all.sh
+
+Ref: https://www.how2shout.com/linux/installing-apache-spark-on-ubuntu-20-04-or-18-04/
 
 Extract it:
 `tar -xvf spark-2.4.5-bin-hadoop2.7.tgz`{{execute}}
