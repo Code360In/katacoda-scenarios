@@ -4,6 +4,30 @@ Lets update Ubuntu first:
 
 `sudo apt-get update`{{execute}}
 
+`sudo apt install default-jdk scala git`{{execute}}
+
+`wget https://downloads.apache.org/spark/spark-3.1.2/spark-3.1.2-bin-hadoop3.2.tgz`{{execute}}
+
+`sudo mkdir /opt/spark`{{execute}}
+
+`sudo tar -xf spark*.tgz -C /opt/spark --strip-component 1`{{execute}}
+
+`sudo chmod -R 777 /opt/spark`{{execute}}
+
+`export SPARK_HOME=/opt/spark`{{execute}}
+
+`export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin`{{execute}}
+
+`export PYSPARK_PYTHON=/usr/bin/python3`{{execute}}
+
+`start-master.sh`{{execute}}
+
+`sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 1` {{execute}}
+
+`pyspark`{{execute}}
+
+`sudo apt-get update`{{execute}}
+
 For full functionality, spark needs java 8
 
 `java -version`{{execute}}
