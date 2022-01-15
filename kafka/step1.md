@@ -2,6 +2,8 @@
 
 Lets update Ubuntu first:
 
+`python --version`{{execute}}
+
 `pip install jupyter notebook`{{execute}}
 
 `sudo apt-get update`{{execute}}
