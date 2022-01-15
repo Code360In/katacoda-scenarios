@@ -24,6 +24,8 @@ Lets update Ubuntu first:
 
 `export PYSPARK_PYTHON=/usr/bin/python3`{{execute}}
 
+`pip install findspark`{{execute}}
+
 `start-master.sh`{{execute}}
 
 `export PYSPARK_DRIVER_PYTHON="jupyter"`{{execute}}
