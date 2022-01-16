@@ -34,6 +34,14 @@ Lets update Ubuntu first:
 
 `pyspark`{{execute}}
 
+Copy this address in your browser to see Spark server
+`https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com`
+
+Copy this address in your browser to see Jupyter notebook
+`https://[[HOST_SUBDOMAIN]]-8888-[[KATACODA_HOST]].environments.katacoda.com`
+
+Copy the token from your terminal to log in Jupyter notebook
+
 `sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 1`{{execute}}
 
 `pyspark`{{execute}}
