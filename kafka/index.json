@@ -28,7 +28,7 @@
     "assets": {
       "client": [
         {
-          "file": "home.csv",
+          "file": "house_data.csv",
           "target": "/root/"
         }
       ]
