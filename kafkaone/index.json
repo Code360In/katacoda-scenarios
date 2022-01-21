@@ -1,0 +1,54 @@
+{
+  "title": "Kafka Quickstart",
+  "description": "To discover first Kafka usage, the easy way",
+  "difficulty": "Beginner",
+  "time": "20 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Install",
+        "text": "step1.md"
+      },
+      {
+        "title": "Start the Kafka",
+        "text": "step2.md"
+      },
+      {
+        "title": "Create Topic",
+        "text": "step3.md"
+      },
+      {
+        "title": "Write Events",
+        "text": "step4.md"
+      },
+      {
+        "title": "Read Events",
+        "text": "step5.md"
+      },
+      {
+        "title": "Kafka Connect",
+        "text": "step6.md"
+      },
+      {
+        "title": "Kafka Streams",
+        "text": "step7.md"
+      },
+      {
+        "title": "Streams Demo Application",
+        "text": "step8.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
