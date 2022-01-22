@@ -36,13 +36,13 @@
   },
   "environment": {
         "showdashboard": true,
-        "dashboards": [{"name": "Open spark server", "href": "https://[[HOST2_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/vnc.html?autoconnect=true", "port": 8080},
-                       {"name": "Open jupyter notebook", "href": "https://[[HOST2_SUBDOMAIN]]-8888-[[KATACODA_HOST]].environments.katacoda.com/vnc.html?autoconnect=true", "port": 8888}
+        "dashboards": [{"name": "Open spark server", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com", "port": 8080},
+                       {"name": "Open jupyter notebook", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/vnc.html?autoconnect=true", "port": 8888}
                       ],
         "hidefinish": true,
         "hideintro": true,
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mBrought to you by fb.com/thuong.hai.581.\u001b[m\r\n"
+    "uimessage1": "\u001b[32mBrought to you by Subrata Parida.\u001b[m\r\n"
   },
   "backend": {
     "imageid": "python:3.8"
