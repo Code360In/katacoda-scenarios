@@ -30,7 +30,15 @@
         {
           "file": "house_data.csv",
           "target": "/root/"
-        }
+        },
+        {
+          "file": "employees.csv",
+          "target": "/root/"
+        } ,
+        {
+          "file": "departments.csv",
+          "target": "/root/"
+        }        
       ]
     }
   },
