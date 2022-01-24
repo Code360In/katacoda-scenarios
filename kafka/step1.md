@@ -8,7 +8,7 @@ Lets update Ubuntu first:
 
 `sudo apt-get update`{{execute}}
 
-`sudo apt install -Y default-jdk scala git`{{execute}}
+`sudo apt install default-jdk scala git`{{execute}}
 
 `wget https://downloads.apache.org/spark/spark-3.1.2/spark-3.1.2-bin-hadoop3.2.tgz`{{execute}}
 
