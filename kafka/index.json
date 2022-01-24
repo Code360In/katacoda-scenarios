@@ -37,7 +37,7 @@
   "environment": {
         "showdashboard": true,
         "dashboards": [{"name": "Open spark server", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/vnc.html?autoconnect=true", "port": 8080},
-                       {"name": "Open jupyter notebook", "href": "https://[[HOST_SUBDOMAIN]]-8888-[[KATACODA_HOST]].environments.katacoda.com/vnc.html?autoconnect=true", "port": 8888}
+                       {"name": "Open jupyter notebook", "href": "https://[[HOST_SUBDOMAIN]]-8888-[[KATACODA_HOST]].environments.katacoda.com/", "port": 8888}
                       ],
         "hidefinish": true,
         "hideintro": true,
