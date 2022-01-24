@@ -30,7 +30,11 @@
          { 
           "file": "*.csv",
           "target": "~/" 
-        }        
+        },
+         { 
+          "file": "*.ipynb",
+          "target": "~/" 
+        }    
       ]
     }
   }, 
