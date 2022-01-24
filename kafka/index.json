@@ -28,7 +28,7 @@
     "assets": {
       "client": [
         {
-           { "file": "*.csv", "target": "~/" }
+           { "file": "house_data.csv", "target": "~/" }
         }        
       ]
     }
