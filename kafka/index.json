@@ -24,8 +24,15 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+           { "file": "*.csv", "target": "~/" }
+        }        
+      ]
     }
-  },
+  }, 
   "environment": {
         "showdashboard": true,
         "dashboards": [{"name": "Open spark server", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/vnc.html?autoconnect=true", "port": 8080},
