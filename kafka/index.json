@@ -48,6 +48,7 @@
     "uilayout": "terminal",
     "uimessage1": "\u001b[32mBrought to you by Subrata Parida.\u001b[m\r\n"
   },
+  "type": "jupyter@0.1",
   "backend": {
     "imageid": "python:3.8"
   }
