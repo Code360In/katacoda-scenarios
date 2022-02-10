@@ -1,0 +1,42 @@
+{
+  "title": "Running Spark on a single server",
+  "description": "Setup Spark in stand-alone mode on an Ubuntu server and try a few  Python and Scala commands (v1.0)",
+  "difficulty": "Intermediate",
+  "time": "30",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3",
+        "text": "step3.md"
+      }
+ 
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+  }, 
+  "environment": {
+        "showdashboard": true,
+        "dashboards": [{"name": "Open spark server", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/vnc.html?autoconnect=true", "port": 8080},
+                       {"name": "Open jupyter notebook", "href": "https://[[HOST_SUBDOMAIN]]-8888-[[KATACODA_HOST]].environments.katacoda.com/", "port": 8888}
+                      ],
+        "hidefinish": true,
+        "hideintro": true,
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mBrought to you by Subrata Parida.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "python:3.8"
+  }
+}
