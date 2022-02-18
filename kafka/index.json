@@ -34,6 +34,10 @@
          { 
           "file": "*.ipynb",
           "target": "~/" 
+        },
+        { 
+          "file": "*.jar",
+          "target": "~/" 
         }    
       ]
     }
